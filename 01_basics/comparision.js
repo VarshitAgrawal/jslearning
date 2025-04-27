@@ -126,3 +126,45 @@ const greetList = ["Hello", " ", "Venkat", "!"];
 "".concat(null); // "null"
 "".concat(true); // "true"
 "".concat(4, 5); // "45"
+splice(start)
+splice(start, deleteCount)
+splice(start, deleteCount, item1)
+const months = ["Jan", "March", "April", "June"];
+months.splice(1, 0, "Feb");
+// Inserts at index 1
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, "May");
+// Replaces 1 element at index 4
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "May"]
+
+const myFish = ["angel", "clown", "mandarin", "sturgeon"];
+const removed = myFish.splice(2, 0, "drum");
+
+// myFish is ["angel", "clown", "drum", "mandarin", "sturgeon"]
+// removed is [], no elements removed
+
+
+// 🏷️ Regex Flags
+// Flags modify the behavior of the regex:​
+// MDN Web Docs
+// +1
+// FreeCodeCamp
+// +1
+// FreeCodeCamp
+
+// g: Global search (find all matches).
+
+// i: Case-insensitive search.
+
+// m: Multi-line search.
+
+// s: Allows . to match newline characters.
+
+// u: Enables full Unicode support.
+
+// y: Sticky search; matches starting at the current position in the target string.
+
+
