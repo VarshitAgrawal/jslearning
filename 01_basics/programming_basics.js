@@ -15,7 +15,7 @@
 const Myname = 'varshit'
 const vowel = 'aeiouAEIOU' // HERE for safety we are taking the vowels in small and capital letter as user can give the string in any of the case 
 
-const charsArr = [...myName];
+const charsArr = [...MyName];
 const myVowels  = charsArr.filter(c => vowels.includes(c));
 const myConsonants  = charsArr.filter(c => !vowels.includes(c));
 
