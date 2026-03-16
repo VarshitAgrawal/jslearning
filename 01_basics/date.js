@@ -7,8 +7,9 @@ console.log(date.toDateString());// Thu Apr 24 2025
 // new way to declare the date ==>
 // const myDate = new Date(23, 0 ,24 )
 // console.log(myDate.toDateString()); //Wed Jan 24 1923
-const myDate = new Date("01-22-2025" )
+
 console.log(myDate.toDateString()); //Wed Jan 24 1923
+const myDate = new Date("01-22-2025" )
 console.log(myDate.toLocaleDateString()); // 1/22/2025
 console.log(myDate.toLocaleString()); // 1/22/2025, 12:00:00 AM 
 
